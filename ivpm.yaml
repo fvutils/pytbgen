@@ -4,7 +4,9 @@ package:
 
   dep-sets:
     - name: default
-      deps: []
+      deps: 
+      - name: uvmf-yaml-utils
+        url: https://github.com/fvutils/uvmf-yaml-utils.git
     - name: default-dev
       deps:
       - name: uvmf-yaml-utils
